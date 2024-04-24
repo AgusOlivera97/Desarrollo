@@ -14,11 +14,11 @@ body{
     text-align: center;
 }
 h1{ 
-   font-size: 90px;
+   font-size: 40px;
    text-align: center;
    color: #00CDD8;
    padding-bottom: 20px;
-   
+   padding-top:20px;
 }
 .container{
     display: flex;
@@ -46,18 +46,15 @@ h1{
 } 
 
 .img-iconos {
-    max-width: 100%;
-    height: auto;
-    display: flex;
     width: 150px;
     align-items: center;
-    justify-content: center;
 }
 
 .imagen-section{
     width: 200px;
     padding-top: 10px;
     padding-bottom: 10px;
+    height: 200px;
 }
 
 footer{
@@ -78,7 +75,11 @@ footer{
     padding: 20px;
     background-color: #f8f9fa;
     border-radius: 5px;
+    text-align: center;
 }
 p{
     text-align: justify;
+}
+li
+{text-align:justify;
 }
